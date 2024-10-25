@@ -15,7 +15,7 @@ fn main() {
     // 获取命令行参数
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
-        eprintln!("Usage: pycreator <project_name>");
+        eprintln!("Usage: pycreator <project_name> <venv_name>");
         std::process::exit(1);
     }
 
